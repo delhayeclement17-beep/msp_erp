@@ -1,0 +1,9 @@
+# Replace with your domain when deploying
+:80 {
+  reverse_proxy app:3000
+}
+
+# For production with a domain:
+# erp.mahieu.be {
+#   reverse_proxy app:3000
+# }
